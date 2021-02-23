@@ -15,7 +15,9 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(
             [
-                BatimentSeeder::class
+                BatimentSeeder::class,
+                FormationSeeder::class,
+                TypeformationsSeeder::class
             ]
         );
     }
