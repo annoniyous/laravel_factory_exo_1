@@ -13,6 +13,11 @@ class TypeformationsSeeder extends Seeder
      */
     public function run()
     {
-        //
+       
+        $this->call(
+            [
+                TypeformationsSeeder::class
+            ]
+        );
     }
 }

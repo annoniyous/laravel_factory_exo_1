@@ -13,6 +13,11 @@ class FormationSeeder extends Seeder
      */
     public function run()
     {
-        //
+      
+        $this->call(
+            [
+                FormationSeeder::class
+            ]
+        );
     }
 }
